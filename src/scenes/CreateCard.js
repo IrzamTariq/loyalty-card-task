@@ -1,6 +1,5 @@
 import React from "react";
-import Create from "../components/Create";
-import Navbar from "../components/Navbar";
+import { Navbar, Create } from "../components";
 
 const CreateCard = () => {
   return (

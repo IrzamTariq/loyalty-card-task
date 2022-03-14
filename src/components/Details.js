@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Grid, Container, makeStyles, Typography } from "@material-ui/core";
 import { useCardState } from "../context/card.context";
 import { useNavigate } from "react-router-dom";
-const Create = () => {
+const Details = () => {
   const cardState = useCardState();
   const navigate = useNavigate();
   const useStyles = makeStyles((theme) => ({
@@ -51,4 +51,4 @@ const Create = () => {
   );
 };
 
-export default Create;
+export default Details;

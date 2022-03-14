@@ -1,8 +1,7 @@
 import React from "react";
-import List from "../components/List";
-import Navbar from "../components/Navbar";
+import { Navbar, List } from "../components";
 
-const Home = () => {
+const CardsList = () => {
   return (
     <React.Fragment>
       <Navbar title="Loyalty Cards" />
@@ -11,4 +10,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default CardsList;

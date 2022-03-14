@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Feed = () => {
+const List = () => {
   const classes = useStyles();
   const card = useCardState();
   return (
@@ -25,4 +25,4 @@ const Feed = () => {
   );
 };
 
-export default Feed;
+export default List;

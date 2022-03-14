@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Navbar from "../components/Navbar";
-import Details from "../components/Details";
+import { Navbar, Details } from "../components";
 
 const CreateCard = () => {
   const params = useParams();
